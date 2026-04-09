@@ -6,8 +6,10 @@
 //
 
 import Foundation
+import Combine
 import MapKit
 import CoreLocation
+import SwiftUI
 
 final class MapViewModel: NSObject, ObservableObject {
     @Published var points: [CLLocationCoordinate2D] = []
@@ -202,4 +204,4 @@ final class MapViewModel: NSObject, ObservableObject {
         }
     }
 }
-A few note
+
